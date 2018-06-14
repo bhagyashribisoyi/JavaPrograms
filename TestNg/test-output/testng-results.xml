@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="1" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20892" started-at="2018-06-08T06:28:34Z" finished-at="2018-06-08T06:28:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20892" started-at="2018-06-08T06:28:34Z" finished-at="2018-06-08T06:28:55Z">
+      <class name="com.testngFramework.TestNgFeature">
+        <test-method status="FAIL" signature="logintest()[pri:0, instance:com.testngFramework.TestNgFeature@17fd0e6]" name="logintest" duration-ms="0" started-at="2018-06-08T06:28:34Z" finished-at="2018-06-08T06:28:34Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.testngFramework.TestNgFeature.logintest(TestNgFeature.java:10)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="Registrationpagetest()[pri:0, instance:com.testngFramework.TestNgFeature@17fd0e6]" name="Registrationpagetest" duration-ms="0" started-at="2018-06-08T06:28:34Z" finished-at="2018-06-08T06:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registrationpagetest -->
+        <test-method status="SKIP" signature="Searchtest()[pri:0, instance:com.testngFramework.TestNgFeature@17fd0e6]" name="Searchtest" duration-ms="0" started-at="2018-06-08T06:28:34Z" depends-on-methods="com.testngFramework.TestNgFeature.logintest" finished-at="2018-06-08T06:28:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestNgFeature.Searchtest()[pri:0, instance:com.testngFramework.TestNgFeature@17fd0e6] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestNgFeature.Searchtest()[pri:0, instance:com.testngFramework.TestNgFeature@17fd0e6] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchtest -->
+      </class> <!-- com.testngFramework.TestNgFeature -->
+      <class name="com.testngFramework.DifferentAnnotation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testngFramework.DifferentAnnotation@1efef64]" name="setup" is-config="true" duration-ms="32" started-at="2018-06-08T06:28:34Z" finished-at="2018-06-08T06:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.testngFramework.DifferentAnnotation@1efef64]" name="test" is-config="true" duration-ms="0" started-at="2018-06-08T06:28:34Z" finished-at="2018-06-08T06:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.testngFramework.DifferentAnnotation@1efef64]" name="beforeclass" is-config="true" duration-ms="0" started-at="2018-06-08T06:28:34Z" finished-at="2018-06-08T06:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.testngFramework.DifferentAnnotation@1efef64]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-06-08T06:28:34Z" finished-at="2018-06-08T06:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="testcase()[pri:0, instance:com.testngFramework.DifferentAnnotation@1efef64]" name="testcase" duration-ms="1" started-at="2018-06-08T06:28:34Z" finished-at="2018-06-08T06:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.testngFramework.DifferentAnnotation@1efef64]" name="aftermethod" is-config="true" duration-ms="0" started-at="2018-06-08T06:28:34Z" finished-at="2018-06-08T06:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.testngFramework.DifferentAnnotation@1efef64]" name="afterclass" is-config="true" duration-ms="0" started-at="2018-06-08T06:28:34Z" finished-at="2018-06-08T06:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.testngFramework.DifferentAnnotation@1efef64]" name="aftertest" is-config="true" duration-ms="0" started-at="2018-06-08T06:28:55Z" finished-at="2018-06-08T06:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.testngFramework.DifferentAnnotation@1efef64]" name="aftersuite" is-config="true" duration-ms="0" started-at="2018-06-08T06:28:55Z" finished-at="2018-06-08T06:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.testngFramework.DifferentAnnotation -->
+      <class name="com.testngFramework.ValidationClass">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.testngFramework.ValidationClass@a3ffec]" name="setUP" is-config="true" duration-ms="20044" started-at="2018-06-08T06:28:34Z" finished-at="2018-06-08T06:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifylinkTest()[pri:2, instance:com.testngFramework.ValidationClass@a3ffec]" name="verifylinkTest" duration-ms="59" started-at="2018-06-08T06:28:54Z" finished-at="2018-06-08T06:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngFramework.ValidationClass@a3ffec]" name="tearDown" is-config="true" duration-ms="694" started-at="2018-06-08T06:28:54Z" finished-at="2018-06-08T06:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testngFramework.ValidationClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
